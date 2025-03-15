@@ -6,17 +6,20 @@ This project analyzes and clusters aircraft accidents from 1918 to the present t
 
 ## Dataset
 
-[Bureau of Aircraft Accidents Archives (BAAA)](https://www.baaa-acro.com/)
+- [Bureau of Aircraft Accidents Archives (BAAA)](https://www.baaa-acro.com/)
+- [Skybrary](https://skybrary.aero/)
 
 ## Libraries used
 
 - beautifulsoup4
 - pandas
 - requests
+- thefuzz
 
 ## Methods & Models
 
 - Data collected through web scraping
+- Aircraft details joined with approximate string matching
 - Data Modeling
   - K-Means
   - Hierarchical clustering
