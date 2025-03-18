@@ -13,6 +13,7 @@ The data comes from the [Bureau of Aircraft Accidents Archives (BAAA)](https://w
 ## Libraries used
 
 - beautifulsoup4
+- geopy
 - matplotlib
 - pandas
 - requests
@@ -42,11 +43,11 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 5. **Feature Engineering:**
 
    - Extracted relevant features from textual and numerical data to enhance clustering performance.
-   - Applied dimensionality reduction techniques (e.g., PCA) to improve clustering accuracy.
+   - Applied Pricipal Component Analysis (PCA) to reduce dimensionality and improve clustering accuracy.
 
 6. **Clustering Models:**
 
-   - Implemented K-Means clustering to group accidents based on similarities.
+   - Implemented K-Means and Hierarchical clustering to group accidents based on similarities.
    - Tested DBSCAN for density-based clustering to detect anomalies and unusual accident clusters.
    - Evaluated different cluster numbers using elbow method and silhouette scores.
 
@@ -54,11 +55,9 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
    Analyzed the characteristics of each cluster to uncover accident trends and contributing factors.
 
-## Results
-
 ## Future Improvements
 
-The circumstances, probable causes and reports from the BAAA were not collected in the dataset, as there are long texts and can't be preprocessed easily for modeling. It would be interesting to find a way to summarize those into categories (ex: Mechanical failure, human error, bad weather, etc.) to gain valuable insights.
+The circumstances, probable causes and reports from the BAAA or the ASN were not collected in the dataset, as there are long texts and can't be preprocessed easily for modeling. It would be interesting to find a way to summarize those into categories (ex: Mechanical malfunction, human error, bad weather, etc.) to gain valuable insights.
 
 ## Featured Notebooks
 
