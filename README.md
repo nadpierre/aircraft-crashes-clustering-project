@@ -4,7 +4,7 @@
 
 ## Description
 
-This project analyzes and clusters aircraft accidents from 1918 to the present to uncover patterns and trends. By leveraging clustering techniques, the goal is to identify common factors contributing to accidents, such as location, time period and aircraft type. Understanding these patterns can provide insights into aviation safety and help mitigate future risks.
+This project analyzes and clusters aircraft accidents from after World War II to the present to uncover patterns and trends. By leveraging clustering techniques, the goal is to identify common factors contributing to accidents, such as location, time period and aircraft type. Understanding these patterns can provide insights into aviation safety and help mitigate future risks.
 
 ## Dataset
 
@@ -34,7 +34,7 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 3. **Exploratory Data Analysis (EDA):**
 
    - Visualized accident trends over time using time-series plots, barplots and pie plots.
-   - Identified correlations between factors such as aircraft type, location, and accident causes. (NOT INCLUDED YET)
+   - Identified correlations between factors such as aircraft type, flight phase and location.
 
 4. **Data Preprocessing:**
 
