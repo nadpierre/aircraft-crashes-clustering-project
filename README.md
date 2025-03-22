@@ -33,8 +33,7 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
 3. **Exploratory Data Analysis (EDA):**
 
-   - Visualized accident trends over time using time-series plots, barplots and pie plots.
-   - Identified correlations between factors such as aircraft type, flight phase and location.
+   Visualized accident trends over time using time-series plots, barplots and pie plots.
 
 4. **Data Preprocessing:**
 
@@ -54,10 +53,6 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 7. **Insights & Interpretation:**
 
    Analyzed the characteristics of each cluster to uncover accident trends and contributing factors.
-
-## Future Improvements
-
-The circumstances, probable causes and reports from the BAAA or the ASN were not collected in the dataset, as there are long texts and can't be preprocessed easily for modeling. It would be interesting to find a way to summarize those into categories (ex: Mechanical malfunction, human error, bad weather, etc.) to gain valuable insights.
 
 ## Featured Notebooks
 
