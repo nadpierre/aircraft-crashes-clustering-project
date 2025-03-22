@@ -8,16 +8,19 @@ This project analyzes and clusters aircraft accidents from 1970 to the present t
 
 ## Dataset
 
-The data comes from the [Bureau of Aircraft Accidents Archives (BAAA)](https://www.baaa-acro.com/) and the [Aviation Safety Network](https://asn.flightsafety.org/). Some images have been taken from the BAAA, the [Lyon Air Museum](https://lyonairmuseum.org/) and [Skybrary](https://skybrary.aero/).
+The data comes from the [Bureau of Aircraft Accidents Archives (BAAA)](https://www.baaa-acro.com/) and the [Aviation Safety Network](https://asn.flightsafety.org/).
 
 ## Libraries used
 
-- beautifulsoup4
+- BeautifulSoup
 - geopy
 - matplotlib
 - pandas
 - requests
+- scipy
 - seaborn
+- sklearn
+- yellowbrick
 
 ## Methods & Models
 
@@ -25,7 +28,7 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
 1. **Data collection:**
 
-   Collected through web scraping from the BAAA website.
+   Collected through web scraping from the BAAA and ASN website.
 
 2. **Data Preparation:**
 
@@ -37,22 +40,24 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
 4. **Data Preprocessing:**
 
-   Standardized numerical features and encoded categorical variables where necessary.
+   Encoded string variables using Ordinal Encoding and One Hot Encoding, and standardized data.
 
 5. **Feature Engineering:**
 
-   - Extracted relevant features from textual and numerical data to enhance clustering performance.
+   - Collapsed the unique values of string columns to reduce cardinality.
    - Applied Pricipal Component Analysis (PCA) to reduce dimensionality and improve clustering accuracy.
 
 6. **Clustering Models:**
 
    - Implemented K-Means and Hierarchical clustering to group accidents based on similarities.
    - Tested DBSCAN for density-based clustering to detect anomalies and unusual accident clusters.
-   - Evaluated different cluster numbers using elbow method and silhouette scores.
+   - Evaluated different cluster numbers using elbow method, silhouette score and dendogram.
 
 7. **Insights & Interpretation:**
 
    Analyzed the characteristics of each cluster to uncover accident trends and contributing factors.
+
+## Results
 
 ## Featured Notebooks
 
