@@ -17,7 +17,6 @@ The data comes from the [Bureau of Aircraft Accidents Archives (BAAA)](https://w
 - matplotlib
 - pandas
 - requests
-- scipy
 - seaborn
 - sklearn
 - yellowbrick
@@ -40,7 +39,7 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
 4. **Data Preprocessing:**
 
-   Encoded string variables using Ordinal Encoding and One Hot Encoding, and standardized data.
+   Encoded string variables using Ordinal Encoding and One Hot Encoding.
 
 5. **Feature Engineering:**
 
@@ -56,8 +55,6 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 7. **Insights & Interpretation:**
 
    Analyzed the characteristics of each cluster to uncover accident trends and contributing factors.
-
-## Results
 
 ## Featured Notebooks
 
