@@ -49,9 +49,9 @@ To analyze and cluster aircraft accidents, this project follows these steps:
 
 6. **Clustering Models:**
 
-   - Implemented K-Means and Hierarchical clustering to group accidents based on similarities.
+   - Implemented K-Means to group accidents based on similarities.
    - Tested DBSCAN for density-based clustering to detect anomalies and unusual accident clusters.
-   - Evaluated different cluster numbers using elbow method, silhouette score and dendogram.
+   - Evaluated different cluster numbers using elbow method and silhouette score.
 
 7. **Insights & Interpretation:**
 
